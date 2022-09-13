@@ -60,9 +60,6 @@
       <p>公司名称: {{ this.message.company }}</p>
       <p>Dtu编号: {{ this.message.dtu }}</p>
       <p>联系人:{{ this.message.person }}</p>
-      <p>电话:{{ this.message.call }}</p>
-      <p>经度:{{ $store.state.message.lng }}</p>
-      <p>纬度:{{ $store.state.message.lat }}</p>
     </div>
   </div>
 </template>
